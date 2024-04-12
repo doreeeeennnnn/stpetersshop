@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>St Peter's Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="ti-view-list"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <div class="input-group">
+              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+                <span class="input-group-text" id="search">
+                  <i class="ti-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now"
+                aria-label="search" aria-describedby="search">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <button class ="btn btn-outline-danger" >Hello Admin Logout</button>
+            
+          </li>
+          
+          
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+          data-toggle="offcanvas">
+          <span class="ti-view-list"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../../adminhome.html">
+              <i class="ti-shield menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../pages/tables/product.html">
+              <i class="ti-view-list-alt menu-icon"></i>
+              <span class="menu-title">Products</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../pages/tables/user.html">
+              <i class="ti-user menu-icon"></i>
+              <span class="menu-title">Users</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-lg-6 grid-margin stretch-card">
+            </div>
+            <div class="col-lg-6 grid-margin stretch-card">
+            </div>
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Product Database</h4>
+                  <p class="card-description">
+                    <button class="btn btn-outline-primary"><a href = "../forms/add_products.html">Add Products</a></button>
+                    <button class="btn btn-outline-primary"><a href = "../../../shop.html">View Shop</a></button>
+                  </p>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>
+                            Product Image
+                          </th>
+                          <th>
+                            Product Name
+                          </th>
+                          <th>
+                            Product Details 
+                          </th>
+                          <th>
+                            Product Price
+                          </th>
+                          <th>
+                            Actions
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face1.jpg" alt="image" />
+                          </td>
+                          <td>
+                            Herman Beck
+                          </td>
+                          <td>
+                            64gb
+                          </td>
+                          <td>
+                            $ 77.99
+                          </td>
+                          <td>
+                            <button class="btn btn-outline-primary"><i class="ti-pencil"></i></a>Edit</button>
+                            <button class="btn btn-outline-danger"><i class="ti-trash"></i> Delete</button>
+                          </td>
+                        </tr>
+                          <td>
+                            <button class="btn btn-outline-primary"><i class="ti-pencil"></i> Edit</button>
+                            <button class="btn btn-outline-danger"><i class="ti-trash"></i> Delete</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face7.jpg" alt="image" />
+                          </td>
+                          <td>
+                            Henry Tom
+                          </td>
+                          <td>
+                            64gb
+                          </td>
+                          <td>
+                            $ 150.00
+                          </td>
+                          <td>
+                            <button class="btn btn-outline-primary"><i class="ti-pencil"></i> Edit</button>
+                            <button class="btn btn-outline-danger"><i class="ti-trash"></i> Delete</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../../vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/template.js"></script>
+  <script src="../../js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
+</body>
+
+</html>

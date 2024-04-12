@@ -1,0 +1,284 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>St Peter's Shop</title>
+</head>
+
+<body>
+	<script>
+		// Start session
+		sessionStorage.setItem('user_id', '<?php echo $_SESSION["user_id"]; ?>');
+		sessionStorage.setItem('user_email', '<?php echo $_SESSION["user_email"]; ?>');
+		sessionStorage.setItem('user_fname', '<?php echo $_SESSION["user_fname"]; ?>');
+		sessionStorage.setItem('user_lname', '<?php echo $_SESSION["user_lname"]; ?>');
+	</script>
+	<!-- Start Header/Navigation -->
+	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+		<div class="container">
+			<a class="navbar-brand" href="index.html">St Peter's Gadgets<span></span></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+				aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsFurni">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+					<li><a class="nav-link" href="home.html">Home</a></li>
+					<li class="nav-item active">
+						<a class="nav-link" href="shop.html">Shop</a>
+					</li>
+					<li><a class="nav-link" href="about.html">About Us</a></li>
+
+					<li><a class="nav-link" href="contact.html">Contact Us</a></li>
+				</ul>
+
+				<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					<!-- <li><a class="nav-link" href="#"><img src="images/user.svg"></a></li> -->
+					<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<!-- End Header/Navigation -->
+
+	<div class="Hero">
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<div class="row">
+					<form action="#" class="row g-3">
+						<div class="col-auto">
+							<br>
+							<input type="text" class="form-control" placeholder="Search for Products">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="untree_co-section product-section before-footer-section">
+		<div class="container">
+			<div class="row">
+				<!-- Start Column 1 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/series9watch-removebg-preview.png" class="img-fluid product-thumbnail"
+							style="margin-top: 30px;">
+						<h3 class="product-title">Iwatch series 9</h3>
+						<strong class="product-price">GH₵6,500.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 1 -->
+
+				<!-- Start Column 2 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/new15pro.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Iphone 15 pro</h3>
+						<strong class="product-price">GH₵ 15,499.99</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 2 -->
+
+				<!-- Start Column 3 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/15promax-2.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Iphone 15 pro max</h3>
+						<strong class="product-price">GH₵ 20,000.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 3 -->
+
+				<!-- Start Column 4 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/SE-2.png" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Iphone SE 3rd Generation</h3>
+						<strong class="product-price">GH₵ 6,000.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 4 -->
+
+
+				<!-- Start Column 1 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/oeb-e11d-black.png.webp" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Oraimo waterproof airbuds</h3>
+						<strong class="product-price">GH₵ 300</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 1 -->
+
+				<!-- Start Column 2 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/samsung-removebg-preview.png" class="img-fluid product-thumbnail"
+							style="margin-top: 30px;">
+						<h3 class="product-title">Samsung A53</h3>
+						<strong class="product-price">GH₵ 2160.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 2 -->
+
+				<!-- Start Column 3 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/oeb-e105d-uranolithgrey.png.webp" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Oraimo moon buds</h3>
+						<strong class="product-price">GH₵ 498.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 3 -->
+
+				<!-- Start Column 4 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5">
+					<a class="product-item" href="#">
+						<img src="images/obs-75d.png-2.webp" class="img-fluid product-thumbnail">
+						<h3 class="product-title">Oraimo boom speaker</h3>
+						<strong class="product-price">GH₵ 650.00</strong>
+
+						<span class="icon-cross">
+							<img src="images/cross.svg" class="img-fluid">
+						</span>
+					</a>
+				</div>
+				<!-- End Column 4 -->
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Start Footer Section -->
+	<footer class="footer-section">
+		<div class="container relative">
+
+			<div class="sofa-img">
+				<img src="images/11i.png" alt="Image" class="img-fluid">
+			</div>
+
+			<div class="row g-5 mb-5">
+				<div class="col-lg-4">
+					<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">St Peter's
+							Gadget<span>.</span></a></div>
+					<p class="mb-4">We are the number one best online shopping platforms in Ghana. Any Day Any Time!</p>
+
+					<ul class="list-unstyled custom-social">
+						<li><a href="https://www.facebook.com/St.PetersPhones/"><span
+									class="fa fa-brands fa-facebook-f"></span></a></li>
+						<li><a href="https://x.com/StPetersPhones"><span class="fa fa-brands fa-twitter"></span></a>
+						</li>
+						<li><a
+								href="https://www.instagram.com/st.petersphones?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
+									class="fa fa-brands fa-instagram"></span></a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-8">
+					<div class="row links-wrap">
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="about.html">About us</a></li>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="contact.html">Location</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="shop.html">Mobile Phones</a></li>
+								<li><a href="shop.html">Laptop</a></li>
+								<li><a href="shop.html">Watches</a></li>
+							</ul>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="border-top copyright">
+				<div class="row pt-4">
+					<div class="col-lg-6">
+						<p class="mb-2 text-center text-lg-start">Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash;
+							Designed with by Doreen Inc</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/custom.js"></script>
+
+	<script>
+		// Check if session is not started
+		if (!sessionStorage.getItem('user_id')) {
+			// Alert user and redirect to login page
+			alert('You have to log in in order to shop.');
+			window.location.href = 'login.html';
+		}
+	</script>
+</body>
+
+</html>
