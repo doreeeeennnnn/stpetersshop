@@ -323,17 +323,17 @@ session_start();  // Starting/continuing Session
 					<div class="row links-wrap">
 						<div class="col-6 col-sm-6 col-md-3">
 							<ul class="list-unstyled">
-								<li><a href="about.html">About us</a></li>
-								<li><a href="#">Contact us</a></li>
-								<li><a href="contact.html">Location</a></li>
+								<li><a href="about.php">About us</a></li>
+								<li><a href="contact.php">Contact us</a></li>
+								<li><a href="contact.php">Location</a></li>
 							</ul>
 						</div>
 
 						<div class="col-6 col-sm-6 col-md-3">
 							<ul class="list-unstyled">
-								<li><a href="shop.html">Mobile Phones</a></li>
-								<li><a href="shop.html">Laptop</a></li>
-								<li><a href="shop.html">Watches</a></li>
+								<li><a href="shop.php">Mobile Phones</a></li>
+								<li><a href="shop.php">Laptop</a></li>
+								<li><a href="shop.php">Watches</a></li>
 							</ul>
 						</div>
 
