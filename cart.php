@@ -44,7 +44,7 @@ $fname = $_SESSION['user_fname'];
 
       <div class="collapse navbar-collapse" id="navbarsFurni">
         <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-          <li><a class="nav-link" href="home.php">Home</a></li>
+          <li><a class="nav-link" href="index.php.php">Home</a></li>
           <li><a class="nav-link" href="shop.php">Shop</a></li>
           <li><a class="nav-link" href="about.php">About Us</a></li>
           <li><a class="nav-link" href="contact.php">Contact Us</a></li>
